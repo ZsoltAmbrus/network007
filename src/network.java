@@ -10,11 +10,11 @@
 class ConnectionManager {
     public void establishConnection(String networkName) {
         System.out.println("Connecting to " + networkName + "...");
-        // Kapcsolódási logika
+        
     }
 
     public void terminateConnection() {
         System.out.println("Disconnecting...");
-        // Kapcsolat bontási logika
+        
     }
 }
