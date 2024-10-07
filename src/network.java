@@ -8,10 +8,10 @@
 * Licenc: GNU GPL
 */
 class ConnectionManager {
-    public void establishConnection(String networkName) {
+    public void Connection(String networkName) {
         System.out.println("Connecting " + networkName + "...");
     }
-    public void terminateConnection() {
+    public void NoConnection() {
         System.out.println("Disconnecting..");
     }
 }

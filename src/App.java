@@ -10,7 +10,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         ConnectionManager manager = new ConnectionManager();
-        manager.establishConnection("Network");
-        manager.terminateConnection();
+        manager.Connection("Network");
+        manager.NoConnection();
     }
 }
