@@ -9,12 +9,9 @@
 */
 class ConnectionManager {
     public void establishConnection(String networkName) {
-        System.out.println("Connecting to " + networkName + "...");
-        
+        System.out.println("Connecting " + networkName + "...");
     }
-
     public void terminateConnection() {
-        System.out.println("Disconnecting...");
-        
+        System.out.println("Disconnecting..");
     }
 }
